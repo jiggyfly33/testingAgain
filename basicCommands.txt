@@ -4,6 +4,7 @@ commit
 git config --global user.name 'Cody Schmidt'
 git config --global user.email 'emailHere'
 git rm --cached fileNameHere (removed added things that aren't 		commited yet)
+rm fileToBeDeleted (removes completely from directory)
 clear
 touch .gitignore (write into this text document what is to be ignored when "git add"ing)
 git branch branchNameHere

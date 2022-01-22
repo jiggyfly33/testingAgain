@@ -1,0 +1,24 @@
+touch
+add
+commit
+git config --global user.name 'Cody Schmidt'
+git config --global user.email 'emailHere'
+git rm --cached fileNameHere (removed added things that aren't 		commited yet)
+clear
+touch .gitignore (write into this text document what is to be ignored when "git add"ing)
+git branch branchNameHere
+git checkout branchNameHere (switches to branch specified)
+git merge branchNameHere (will merge into master branch/head)
+	hit "i" to type in text for reason of merge
+	hit "esc" then write ":wq" to write then quit
+git remote (checks remote repositories linked with file)
+git remote add origin httpsHere (adds to repository)
+git push -u origin master (pushes contents to repository)
+git push (when already connected to repository, this will auto-push 	all contents to it)
+git clone httpsHere (will make a directory with the file)
+git pull (pulls the new updates from other devs when working on a 	pre-established file already linked to a repository)
+
+
+
+
+
